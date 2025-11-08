@@ -1,139 +1,17 @@
 {
   "users": [
     {
-      "username": "admin",
-      "password": "admin",
-      "role": "admin"
-    },
-    {
-      "username": "user1",
-      "password": "user1",
+      "username": "xyz@school.edu",
+      "password": "12345",
       "role": "student"
     }
   ],
   "sessions": {
-    "22570a8d158c4f25a4b88d5206e9aaf3": {
-      "username": "admin",
-      "role": "admin"
-    },
-    "bdb8851ff6c242e8acdb22ba6f15fcbd": {
-      "username": "user1",
+    "7541dd623f314f81b035e67a15c91e55": {
+      "username": "xyz@school.edu",
       "role": "student"
-    },
-    "aeabe83392134c6fbbcb64fd691265ee": {
-      "username": "user1",
-      "role": "student"
-    },
-    "96dedf56623c492ab0eb0ff52fd2a7b2": {
-      "username": "user1",
-      "role": "student"
-    },
-    "b34f60ff4ef341209bcaed65552aa4f1": {
-      "username": "user1",
-      "role": "student"
-    },
-    "2eb8548b016e4e3a85f85d6238a61cb1": {
-      "username": "admin",
-      "role": "admin"
-    },
-    "70767511e17c4e50af84397977fca557": {
-      "username": "user1",
-      "role": "student"
-    },
-    "e77bf568f0d9451c90839d5ff51603c1": {
-      "username": "admin",
-      "role": "admin"
-    },
-    "ecaf20c290cf48929e60c0186e8a881a": {
-      "username": "user1",
-      "role": "student"
-    },
-    "09c6957cca894be78fb64800c1b80950": {
-      "username": "user1",
-      "role": "student"
-    },
-    "e6ec53a79eeb44b9bba68c354f4be4cd": {
-      "username": "user1",
-      "role": "student"
-    },
-    "8ffa167a17ea4c61b56dc061fba4eea1": {
-      "username": "admin",
-      "role": "admin"
     }
   },
-  "equipment": [
-    {
-      "id": "19a206a1bf5",
-      "name": "Cricket Bat",
-      "category": "Sports",
-      "condition": "Good",
-      "quantity": 20,
-      "available": true
-    },
-    {
-      "id": "19a206a4460",
-      "name": "Ball",
-      "category": "Sports",
-      "condition": "Good",
-      "quantity": 199,
-      "available": true
-    },
-    {
-      "id": "19a206aae8e",
-      "name": "HC Verma Concepts of Physics",
-      "category": "Books",
-      "condition": "Good",
-      "quantity": 35,
-      "available": true
-    },
-    {
-      "id": "19a206b1e57",
-      "name": "Chess Board",
-      "category": "Sports",
-      "condition": "Good",
-      "quantity": 190,
-      "available": true
-    }
-  ],
-  "requests": [
-    {
-      "id": "19a20625582",
-      "equipmentId": "19a1fd4354c",
-      "requester": "user1",
-      "startDate": "2025-10-26T11:58:00.000Z",
-      "endDate": "2025-10-28T11:58:00.000Z",
-      "status": "returned",
-      "createdAt": "2025-10-26T11:58:26.6951747\u002B00:00",
-      "approver": "admin",
-      "approvedAt": "2025-10-26T11:58:49.2774719\u002B00:00",
-      "rejectedAt": null,
-      "returnedAt": "2025-10-26T12:05:43.0880426\u002B00:00"
-    },
-    {
-      "id": "19a206b91ca",
-      "equipmentId": "19a206a4460",
-      "requester": "user1",
-      "startDate": "2025-10-26T12:08:00.000Z",
-      "endDate": "2025-10-31T12:08:00.000Z",
-      "status": "approved",
-      "createdAt": "2025-10-26T12:08:31.9465625\u002B00:00",
-      "approver": "admin",
-      "approvedAt": "2025-10-31T07:21:31.8382309\u002B00:00",
-      "rejectedAt": null,
-      "returnedAt": null
-    },
-    {
-      "id": "19a3923a7ed",
-      "equipmentId": "19a206b1e57",
-      "requester": "user1",
-      "startDate": "2025-10-31T07:20:00.000Z",
-      "endDate": "2025-11-02T07:20:00.000Z",
-      "status": "rejected",
-      "createdAt": "2025-10-31T07:20:29.4239741\u002B00:00",
-      "approver": "admin",
-      "approvedAt": null,
-      "rejectedAt": "2025-10-31T07:21:45.0461110\u002B00:00",
-      "returnedAt": null
-    }
-  ]
+  "equipment": [],
+  "requests": []
 }
